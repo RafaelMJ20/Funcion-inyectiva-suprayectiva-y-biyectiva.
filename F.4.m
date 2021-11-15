@@ -4,18 +4,18 @@
 % Author        :Rafael Miranda Jimenez
 % Date          :20211112
 % Version       :1
-% Usage         :octave> /path/F.3
-% Notes         :Requiere aplicaci髇 octave y usar linea de comandos
+% Usage         :octave> /path/F.4
+% Notes         :Requiere aplicaci贸n octave y usar linea de comandos
 
 clear
 syms x
-% dominio de la funci髇 
+% dominio de la funci贸n 
 x= -32:1:45
-% contradominio de la funci髇
+% contradominio de la funci贸n
 disp ("Contradominio:")
 disp ("Todos los reales")
-% funci髇
+% funci贸n
 y= x
-% plotear funci髇
+% plotear funci贸n
 plot(x,y)
 xlabel("Primero quite los exponentes aplicando las leyes de los mismos despues conclui que es una funcion inyectiva ya que en todos los casos del dominio le estan correspondiendo un elemento del contradominio", "fontsize",15);
